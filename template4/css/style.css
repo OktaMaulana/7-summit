@@ -1,0 +1,148 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+/**
+ * 19/03/2016
+ *
+ * Edit By Okta Maulana
+ */
+
+
+nav ul a,
+nav .brand-logo {
+  color: red;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+/*Custom CSS*/
+
+/*custom modal*/
+.modalgalery {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: #fafafa;
+  padding: 0;
+  max-height: 70%;
+  width: 55%;
+  margin: auto;
+/*  overflow-y: auto;*/
+  border-radius: 2px;
+  will-change: top, opacity;
+}
+
+.text-depth-1 {
+  text-shadow: 5px 11px 1px #000;
+}
+
+.text-depth-2 {
+  text-shadow: 8px 15px 2px #000;
+}
+
+.text-depth-3 {
+  text-shadow: 12px 17px 3px #000;
+}
+
+.text-depth-4 {
+  text-shadow: 16px 24px 4px #000;
+}
+
+.text-depth-5 {
+  text-shadow: 21px 28px 5px #000;
+}
+
+.text-flame-1 {
+  text-shadow: 
+    0 1px 1px black, 
+    0 6px 1px #ff3, 
+    1px 11px 2px #fd3, 
+    1px 17px 7px #f80, 
+    1px 21px 14px #f20;
+}
+
+.text-flame-2 {
+  text-shadow: 
+    0 2px 2px black, 
+    0 7px 2px #ff3, 
+    1px 12px 3px #fd3, 
+    1px 18px 8px #f80, 
+    2px 22px 15px #f20;
+}
+
+.text-flame-3 {
+  text-shadow: 
+    0 3px 3px black, 
+    0 8px 3px #ff3, 
+    1px 13px 4px #fd3, 
+    2px 18px 9px #f80, 
+    3px 23px 16px #f20;
+}
+
+.text-flame-4 {
+  text-shadow: 
+    0 4px 3px black, 
+    1px 9px 3px #ff3, 
+    2px 14px 5px #fd3, 
+    3px 19px 10px #f80, 
+    4px 24px 17px #f20;
+}
+
+.text-flame-5 {
+  text-shadow: 
+    1px 5px 4px black, 
+    2px 10px 4px #ff3, 
+    3px 15px 6px #fd3, 
+    4px 20px 11px #f80, 
+    5px 25px 18px #f20;
+}
